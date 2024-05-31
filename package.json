@@ -11,11 +11,15 @@
     "lodash-demo": "node src/lodash-demo.js",
     "moment-demo": "node src/moment-demo.js",
     "faces-demo": "node src/ascii-faces-demo.js",
-    "faker-demo": "node src/faker-demo.js"
+    "faker-demo": "node src/faker-demo.js",
+    "lint": "run eslint",
+    "format": "prettier --write ."
   },
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "@faker-js/faker": "^8.4.1",
-    "eslint": "^9.3.0",
+    "eslint": "9.x",
+    "globals": "^15.3.0",
     "prettier": "3.2.5"
   }
 }

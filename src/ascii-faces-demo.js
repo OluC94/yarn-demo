@@ -1,9 +1,9 @@
-const cool = require('cool-ascii-faces');
+const cool = require("cool-ascii-faces");
 
-let str = ""
+let str = "";
 
-for (let face of cool.faces){
-    str+=face;
+for (let face of cool.faces) {
+  str += face;
 }
 
-console.log(str)
+console.log(str);
